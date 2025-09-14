@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form Inputs</title>
+</head>
+<body>
+<form action="/account" method="get">
+    <table>
+        <tr>
+            <td><label>Text</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Number</label></td>
+            <td><input type="number" min="0" max="100" step="5"></td>
+        </tr>
+        <tr>
+            <td><label>Email</label></td>
+            <td><input type="email" name="email" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Search</label></td>
+            <td><input type="search"></td>
+        </tr>
+        <tr>
+            <td><label>URL</label></td>
+            <td><input type="url" name="url"></td>
+        </tr>
+        <tr>
+            <td><label>Date</label></td>
+            <td><input type="date" name="date" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Time</label></td>
+            <td><input type="time" name="time" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Datetime Local</label></td>
+            <td><input type="datetime-local" name="datetimeLocal" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Month</label></td>
+            <td><input type="month" name="month" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Week</label></td>
+            <td><input type="week" name="week" value=""></td>
+        </tr>
+        <tr>
+            <td><label>Telephone</label></td>
+            <td><input type="tel"></td>
+        </tr>
+        <tr>
+            <td><label>Hidden</label></td>
+            <td><input type="hidden"></td>
+        </tr>
+        <tr>
+            <td><label for="city">Select</label></td>
+            <td>
+                <select name="city" id="city">
+                    <option value="" disabled selected>Seçiniz</option>
+                    <option value="Ankara">Ankara</option>
+                    <option value="67">Zonguldak</option>
+                    <option value="Elma">Amasya</option>
+                </select>
+            </td>
+
+
+            <!--            <select name="brand">
+                            <option value="apple"><input type="checkbox">APPLE</option>
+                            <option value="google"><input type="checkbox">GOOGLE</option>
+                            <option value="samsung"><input type="checkbox">SAMSUNG</option>
+                        </select>-->
+        </tr>
+        <tr>
+            <td>Text Area</td>
+            <td><textarea name="info" id="" cols="30" rows="10"></textarea></td>
+        </tr>
+    </table>
+
+    <input type="checkbox" name="userCheckbox" id="userCheckbox" checked> <label for="userCheckbox">Sözleşmeyi okudum,
+    anladım.</label>
+    <br>
+    <input type="checkbox" name="sales" id="sales"> <label for="sales">Satış sözleşmesini kabul ediyorum.</label>
+    <br>
+
+    <input type="radio" name="gender" id="male" checked><label for="male">Erkek</label>
+    <input type="radio" name="gender" id="female"><label for="female">Kadın</label>
+    <br>
+    <input type="file" name="file" id="file">
+    <br>
+    <input type="color" name="color">
+    <br>
+
+    <input type="range" name="range" min="0" max="100" step="5" value="50">
+    <br>
+
+    <input type="button" value="Button">
+    <input type="reset" value="Reset">
+    <input type="submit" value="Submit">
+</form>
+</body>
+</html>

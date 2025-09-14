@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+</head>
+<body>
+<form>
+    <table>
+        <tbody>
+        <tr>
+            <td><label for="mail">Email</label></td>
+            <td><input type="email" name="email" id="mail" placeholder="example@gmail.com" required></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input type="password" name="password" id="password" minlength="3" required></td>
+        </tr>
+        <tr>
+            <td><label>OTP</label></td>
+            <td><input type="password" name="otp" value="67" readonly disabled ></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <button type="submit">Kaydet</button>
+                <input type="reset" value="Temizle">
+                <button type="button" disabled>Disable</button>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</form>
+</body>
+</html>
