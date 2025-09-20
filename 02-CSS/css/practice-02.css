@@ -1,0 +1,8 @@
+nav.main-menu{
+    background-color: indianred;
+    text-align: center;
+}
+.active{
+    background-color: darkgray;
+    color: white;
+}

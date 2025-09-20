@@ -1,0 +1,19 @@
+* {
+    color: cadetblue;
+}
+
+.highlight {
+    font-size: 1.2rem;
+    color: darkblue;
+}
+
+
+.center {
+    text-align: center;
+    color: crimson;
+}
+
+h1.center {
+    text-align: center;
+    background-color: cadetblue;
+}

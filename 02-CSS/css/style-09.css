@@ -1,0 +1,21 @@
+a {
+    color: orange;
+}
+
+a:link {
+    color: orange;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: crimson;
+    text-decoration: line-through;
+}
+.title:hover{
+    color: cadetblue;
+}

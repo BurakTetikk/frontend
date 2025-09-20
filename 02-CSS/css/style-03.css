@@ -1,0 +1,17 @@
+p{
+    color: cadetblue;
+}
+h1{
+    color: darkgoldenrod;
+    font-size: 2.5rem;
+}
+em{
+    color: crimson;
+}
+
+strong{
+    color: darkblue;
+}
+span{
+    background-color: bisque;
+}
