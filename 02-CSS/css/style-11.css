@@ -1,0 +1,22 @@
+body, html {
+    height: 100%;
+}
+div.parent{
+    font-size: 2rem;
+    width: 80%;
+    height: 60%;
+    background-color: cadetblue;
+}
+
+div.child{
+    font-size: 2em;
+    width: 50%;
+    height: 30%;
+    background-color: darkgoldenrod;
+}
+
+div.grandchild{
+    font-size: 2rem;
+    width: 50vw;
+    background-color: darkgreen;
+}

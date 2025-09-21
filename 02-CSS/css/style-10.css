@@ -1,0 +1,9 @@
+ul.list-style{
+    list-style-type: '😂';
+    list-style-position: inside;
+    line-height: 2rem;
+}
+
+ul.list-style-img{
+    list-style-type: url(02-CSS/assets/images/img.png);
+}
