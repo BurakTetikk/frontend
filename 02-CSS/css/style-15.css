@@ -1,0 +1,12 @@
+:root{
+    --clr-h1: #102225;
+    --clr-p: #557545;
+}
+
+h1.title{
+    color: var(--clr-p);
+}
+
+p.about{
+    color: var(--clr-p);
+}

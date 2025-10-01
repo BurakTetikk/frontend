@@ -1,0 +1,28 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+nav, p{
+    font-size: 2rem;
+}
+
+nav.main-menu a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+nav.main-menu a {
+    padding: 5px;
+}
+
+nav.main-menu a:hover {
+    color: crimson;
+    background-color: aliceblue;
+}
+
+nav.main-menu ul {
+    list-style-type: '🚀';
+    padding: 0;
+    list-style-position: inside;
+    background-color: darkgray;
+}
