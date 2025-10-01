@@ -1,0 +1,26 @@
+.main{
+    background: darkgray;
+    font-weight: bold;
+}
+
+div p span{
+    font-weight: lighter;
+}
+
+h1{
+    font-size: 3rem;
+    color: darkgreen;
+    text-align: center;
+}
+
+.about{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: wheat;
+}
