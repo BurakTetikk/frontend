@@ -1,0 +1,23 @@
+nav.main-nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+nav.main-nav li {
+    display: inline-block;
+}
+
+nav.main-nav ul li a {
+    color: #102225;
+    text-decoration: none;
+    border:none 1px;
+    border-radius: 5px;
+    padding: 10px;
+    background: darkgray;
+}
+
+nav.main-nav ul li a:hover {
+    background-color: #557545;
+    color: black;
+}

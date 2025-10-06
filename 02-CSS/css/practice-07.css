@@ -1,0 +1,12 @@
+nav.main-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: steelblue 10px solid;
+    display: none;
+}
+
+nav.main-nav:hover ul {
+    display: inline-block;
+
+}
