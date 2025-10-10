@@ -1,0 +1,39 @@
+.login-form input[type="text"], input[placeholder="Adınızı Giriniz..."] {
+    background-color: darkgray;
+    border: none;
+    padding: 5px 10px;
+    color: darkgreen;
+}
+
+.login-form input[type="text"]:focus {
+    background-color: darkgreen;
+    color: white;
+}
+
+.login-form input[type="checkbox"]:checked {
+    outline: 3px solid darkgreen;
+}
+
+ul.list{
+    display: inline-block;
+}
+
+ul.list li:first-child {
+    font-weight: bold;
+}
+
+ul.list li:last-child {
+    font-style: italic;
+}
+
+ul.list li:nth-child(odd) {
+    background-color: #557545;
+}
+
+.price-table{
+    margin: auto;
+}
+
+.price-table tr:nth-child(even) {
+    background-color: burlywood;
+}

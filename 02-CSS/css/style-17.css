@@ -1,0 +1,41 @@
+p.about::first-letter {
+
+    color: #557545;
+    font-size: 2rem;
+
+}
+
+p.about::first-line {
+    color: #557545;
+}
+
+p.about::selection {
+    color: darkgray;
+    background-color: #557545;
+}
+
+ul.list li::marker{
+    color: wheat;
+}
+
+.title::before {
+    content: '♥';
+    color: #557545;
+}
+
+.title::After {
+    content: '♥';
+    color: #557545;
+}
+
+.about span::before{
+    content: '[ ';
+    color: crimson;
+    font-weight: bold;
+}
+
+.about span::after{
+    content: ' ]';
+    color: crimson;
+    font-weight: bold;
+}
