@@ -1,0 +1,14 @@
+label {
+    cursor: pointer;
+}
+
+.chk-mode {
+    display: none;
+}
+
+.chk-mode:checked + p.content {
+
+    background-color: #3C606B;
+    color: darkgray;
+
+}

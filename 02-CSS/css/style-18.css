@@ -1,0 +1,26 @@
+nav.menu li {
+    color: #3C606B;
+    font-weight: bold;
+}
+
+nav.menu > ul > li {
+    color: crimson;
+}
+
+nav.menu ul ul > li:last-child{
+    color: cadetblue;
+}
+
+nav.menu > ul > li:nth-child(3) ~ li{
+    color: darkgreen;
+}
+
+nav.menu + div + p {
+    color: crimson;
+    font-weight: bold;
+    font-size: large;
+}
+
+nav.menu ~ p{
+    color: burlywood;
+}
