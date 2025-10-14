@@ -1,0 +1,36 @@
+:root {
+    --color1: #FF774D;
+    --color2: #FF8790;
+    --text-color: white;
+    --button-color: #F44336;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    color: var(--text-color);
+}
+
+.container {
+    display: flex;
+    background-image: linear-gradient(-45deg, var(--color1), var(--color2));
+
+}
+
+.container .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container .logo h2 {
+    margin: 0;
+    margin-bottom: -10px;
+}
+
+.container .logo span{
+    font-size: 0.8rem;
+}
+

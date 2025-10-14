@@ -1,0 +1,15 @@
+.box-1{
+    width: 250px;
+    border: 5px solid red;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.box-2{
+    box-sizing: border-box;
+    width: 250px;
+    border: 5px solid blue;
+    padding: 10px;
+    margin: 10px;
+}
