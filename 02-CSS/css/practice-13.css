@@ -1,8 +1,103 @@
 :root {
     --color1: crimson;
     --color2: cadetblue;
+    --color3: indianred;
 }
 
 body {
     font-family: "Nunito Sans", sans-serif;
+    margin: 0;
+}
+
+section.topbar {
+    background-color: var(--color3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    color: white;
+}
+
+section.topbar div {
+    font-weight: 900;
+    font-size: 2rem;
+}
+
+section.menubar ul,
+section.topbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+section.topbar ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+section.menubar ul a:hover,
+section.topbar ul a:hover {
+    cursor: pointer;
+}
+
+
+section.menubar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+    position: sticky;
+    top: 0;
+    background-color: rgba(188, 143, 143, 0.43);
+    z-index: 1;
+}
+
+section.menubar img {
+    width: 10rem;
+    height: auto;
+}
+
+
+section.menubar ul a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: darkgray;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section.slider {
+    background-image: url("../assets/images/sal.jpg");
+    height: 300px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+section.slider h2{
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+    background-color: rgba(169, 169, 169, 0.27);
+    font-size: 2rem;
+    font-weight: 900;
+    text-shadow: 0 0 10px darkgray;
+}
+
+i{
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    color: #557545;
+    font-weight: bold;
+    font-size: 3rem;
 }
