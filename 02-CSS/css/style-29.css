@@ -1,0 +1,11 @@
+.menu{
+    position: fixed;
+    background-color: #F44336;
+    z-index: 9999;
+}
+
+.price-list thead{
+    position: sticky;
+    top: 10px;
+    background-color: #557545;
+}
