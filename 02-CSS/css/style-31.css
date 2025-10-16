@@ -1,0 +1,30 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+.box-1{
+    background-color: #F44336;
+    transition: background-color 1s;
+}
+
+.box-1:hover{
+    background-color: #FF8790;
+}
+
+.box-2{
+    background-color:rosybrown;
+    transition: transform 1s;
+}
+
+.box-2:hover{
+    transform: rotate(45deg);
+}
+
+.box-3{
+    background-color: indianred;
+}
+.box-4{
+    background-color: steelblue;
+}

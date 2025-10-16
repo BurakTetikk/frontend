@@ -1,0 +1,62 @@
+:root {
+    --menu-background: #B0CE88;
+    --menu-header-background: #4C763B;
+    --menu-text-color: #043915;
+    --menu-icon-color: #FFFD8F;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+nav.left-menu {
+    background-color: var(--menu-background);
+    position: absolute;
+    left: -115px;
+    top: 0;
+    bottom: 0;
+    transition: left 0.3s;
+}
+
+nav.left-menu .title{
+    background-color: var(--menu-header-background);
+    color: var(--menu-text-color);
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    font-weight: 700;
+}
+nav.left-menu .title label{
+    cursor: pointer;
+    transition: transform 0.8s;
+}
+
+nav.left-menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 20px 50px 0 20px;
+    line-height: 30px;
+}
+
+nav.left-menu ul a{
+    text-decoration: none;
+    color: var(--menu-text-color);
+    display: block;
+    transition: all 0.8s;
+}
+
+nav.left-menu ul a:hover{
+    font-weight: 600;
+    transform: translateX(10px);
+}
+
+.menu-checkbox:checked + nav{
+    left: 0;
+}
+
+.menu-checkbox:checked + nav  label{
+    transform: rotate(180deg);
+}
