@@ -1,0 +1,24 @@
+.highlights{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.highlights .card .card-footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.highlights .card .card-footer > div{
+    border-right: 1px solid white;
+    flex: 1;
+}
+.highlights .card .card-footer > div:last-child {
+    border: none;
+}
+
+@media screen and (min-width: 768px) {
+    .highlights div[class^="col"]:nth-child(2) .card{
+        transform: scale(1.1);
+    }
+}
