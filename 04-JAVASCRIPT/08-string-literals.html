@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>String Literals</title>
+</head>
+<body>
+<script>
+    let name = "StringLiterals";
+
+    alert(`Hello ${name}!`);
+
+
+    let HTML = '<div class="card">';
+    HTML += '<div class="card-body">Hello, String Literals!</div>';
+    HTML += '</div>';
+    document.write(HTML);
+
+    let newHTML = `
+    <div class="card">
+    <div class="card-body">Hello, String Literals!</div>
+</div>
+    `;
+
+    document.write(newHTML);
+
+    let a = 4;
+    let b = a++;
+    let c = --a;
+    console.log(a, b, c); //--> 4 4 4
+</script>
+</body>
+</html>
